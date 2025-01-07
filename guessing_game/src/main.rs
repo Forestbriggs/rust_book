@@ -4,8 +4,7 @@ use std::io;
 
 fn main() {
     let mut tries = 5;
-
-    println!("Guess the number!");
+println!("Guess the number!");
 
     let secret_number = rand::thread_rng().gen_range(1..=100);
 
