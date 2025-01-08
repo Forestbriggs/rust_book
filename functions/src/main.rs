@@ -3,14 +3,6 @@ fn main() {
 
     another_function(5);
 
-    let v = if 7 == 4 {
-        7
-    } else if false {
-        9
-    } else {
-        27
-    };
-
     println!("value: {v}");
 }
 
