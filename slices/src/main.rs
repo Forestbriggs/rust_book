@@ -1,8 +1,12 @@
 fn main() {
-    println!("Hello, world!");
+    let s = String::from("hello world");
+
+    let word = first_word(&s);
+
+    println!("the first word is: {word}");
 }
 
-fn first_word(s: &String) -> &str {
+fn first_word(s: &str) -> &str {
     let bytes = s.as_bytes();
 
     for (i, &item) in bytes.iter().enumerate() {
