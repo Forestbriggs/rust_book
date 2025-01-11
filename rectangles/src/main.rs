@@ -54,4 +54,7 @@ fn main() {
     );
 
     println!("rect1 is {rect1:?}");
+
+    let square = Rectangle::square(5);
+    println!("{:?}", square);
 }
