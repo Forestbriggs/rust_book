@@ -3,6 +3,7 @@ fn main() {
     let b: i32 = 5;
     let c: String = String::from::("hello");
     let d = "Hello";
+    let e: i32 = 10;
 
     a[1];
 }
