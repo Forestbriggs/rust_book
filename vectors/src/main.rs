@@ -1,6 +1,5 @@
 fn main() {
-    let mut v: Vec<> = Vec::new();
-
+    let mut v = Vec::new();
 
     let v_infered = vec![1,2,3];
 
@@ -9,5 +8,12 @@ fn main() {
     v.push(7);
     v.push(8);
 
+    let third: &i32 = &v[2];
+    println!("The third element is {third}");
 
+    let third: Option<&i32> = v.get(2);
+    match third {
+        Some(third) => println!("The third element is {third}"),
+        None => println!("There is no third element."),
+    }
 }
