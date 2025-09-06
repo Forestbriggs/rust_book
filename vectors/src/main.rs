@@ -18,7 +18,7 @@ fn main() {
     }
 
     let mut new_v = vec![100, 32, 57];
-    for i in &v {
+    for i in &new_v {
         println!("{i}");
     }
 
@@ -26,7 +26,7 @@ fn main() {
         *i += 50;
     }
 
-    for i in &v {
+    for i in &new_v {
         println!("{i}");
     }
 
