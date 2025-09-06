@@ -17,8 +17,16 @@ fn main() {
         None => println!("There is no third element."),
     }
 
-    let new_v = vec![100, 32, 57];
-    for i in &new_v {
+    let mut new_v = vec![100, 32, 57];
+    for i in &v {
+        println!("{i}");
+    }
+
+    for i in &mut new_v {
+        *i += 50;
+    }
+
+    for i in &v {
         println!("{i}");
     }
 
