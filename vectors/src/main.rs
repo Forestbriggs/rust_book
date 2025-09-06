@@ -17,12 +17,9 @@ fn main() {
         None => println!("There is no third element."),
     }
 
-    let _does_not_exist = &v[100];
-    let _does_not_exist = v.get(100);
-
-    let first = &v[0];
-
-    v.push(6);
-    println!("The first element is: {first}");
+    let new_v = vec![100, 32, 57];
+    for i in &new_v {
+        println!("{i}");
+    }
 
 }
