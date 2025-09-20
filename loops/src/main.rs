@@ -3,4 +3,8 @@ fn main() {
         println!("{number}!");
     }
     println!("LIFTOFF!!!");
+
+    for number in (1..4).rev() {
+        println!("{number} and");
+    }
 }
