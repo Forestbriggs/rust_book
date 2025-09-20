@@ -11,4 +11,9 @@ fn main() {
         SpreadsheetCell::Float(10.12),
     ];
 
+    let other row = vec![
+        SpreadsheetCell::Int(4),
+        SpreadsheetCell::Text(String::from("red")),
+        SpreadsheetCell::Float(12.47),
+    ]
 }
