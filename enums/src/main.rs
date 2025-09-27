@@ -15,13 +15,13 @@ fn main() {
         SpreadsheetCell::Int(4),
         SpreadsheetCell::Text(String::from("red")),
         SpreadsheetCell::Float(12.47),
-    ]
+    ];
 
     let third_row = vec![
         SpreadsheetCell::Int(5),
         SpreadsheetCell::Text(String::from("green")),
         SpreadsheetCell::Float(13.87),
-    ]
+    ];
 
     println!("First row reads {row}");
 }
