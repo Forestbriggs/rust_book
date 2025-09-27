@@ -23,6 +23,6 @@ fn main() {
         SpreadsheetCell::Float(13.87),
     ];
 
-    println!("First row reads {row}");
+    println!("First row reads {:#}", row);
 }
 
