@@ -22,5 +22,7 @@ fn main() {
         SpreadsheetCell::Text(String::from("green")),
         SpreadsheetCell::Float(13.87),
     ]
+
+    println!("First row reads {row}");
 }
 
